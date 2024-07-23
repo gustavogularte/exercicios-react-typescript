@@ -7,10 +7,10 @@ type InputProps = React.ComponentProps<'input'> & {
 };
 
 const Input = ({ label, id, setValue, ...props }: InputProps) => {
+
   function handleChange({currentTarget}: React.ChangeEvent<HTMLInputElement>) {
     if (setValue) setValue(currentTarget.value);
   };
-  
 
   return (
     <div style={{ marginBottom: '1rem' }}>

@@ -49,8 +49,8 @@ const Ex3 = () => {
         <button onClick={() => seekVideo(2)}>+2s</button>
         <button onClick={() => setPlaybackSpeed(1.0)}>1x</button>
         <button onClick={() => setPlaybackSpeed(2.0)}>2x</button>
-        <button onClick={() => pictureInPicture()}>PiP</button>
-        <button onClick={() => muteVideo()}>Mute</button>
+        <button onClick={pictureInPicture}>PiP</button>
+        <button onClick={muteVideo}>Mute</button>
       </nav>
       <video
         src={videoSrc}
