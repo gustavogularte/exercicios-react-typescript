@@ -32,7 +32,7 @@ export const useUser = () => {
 
 export const ContextProvider = ({ children }: React.PropsWithChildren) => {
   const { data, loading, error } = useFetch<IUser>(
-    'https://data.origamid.dev/usuarios/1'
+    'https://data.origamid.dev/usuarios/2'
   );
 
   return (
