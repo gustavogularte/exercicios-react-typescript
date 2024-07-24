@@ -4,15 +4,13 @@ function useFetch<T>(url: RequestInfo | URL, options?: RequestInit) {
   const [data, setData] = React.useState<T | null>(null);
   const [loading, setLoading] = React.useState(false);
   const [error, setError] = React.useState<string | null>(null);
-  const controller = new AbortController();
-  const { signal } = controller;
 
   function resetLoadingAndError() {
     setLoading(false);
     setError(null);
   }
 
-  async function fetchData() {
+  async function fetchData(signal: AbortSignal) {
     resetLoadingAndError();
 
     try {
@@ -34,7 +32,9 @@ function useFetch<T>(url: RequestInfo | URL, options?: RequestInit) {
   }
 
   React.useEffect(() => {
-    fetchData();
+    const controller = new AbortController();
+    const { signal } = controller;
+    fetchData(signal);
 
     return () => controller.abort();
   }, [url]);
