@@ -1,30 +1,75 @@
-# React + TypeScript + Vite
+<h1 align="center">⚛️ React com TypeScript - Origamid</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  Repositório com os exercícios desenvolvidos durante o curso <strong>React com TypeScript</strong> da Origamid.
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white">
+  <img src="https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Curso-Origamid-purple?style=for-the-badge">
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+# 📖 Sobre
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Este repositório reúne todos os exercícios realizados durante o curso **React com TypeScript** da Origamid.
 
-- Configure the top-level `parserOptions` property like this:
+Ao longo do curso foram desenvolvidas aplicações utilizando React e TypeScript, aplicando tipagem estática na construção de componentes, gerenciamento de estado, consumo de APIs e boas práticas para criação de aplicações Front-end modernas.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+---
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# 🚀 Conteúdos estudados
+
+- ✅ Configuração do React com TypeScript
+- ✅ Tipagem de Componentes
+- ✅ Props Tipadas
+- ✅ Estado com useState
+- ✅ Hooks Tipados
+- ✅ useEffect
+- ✅ useRef
+- ✅ useContext
+- ✅ Context API
+- ✅ Eventos Tipados
+- ✅ Formulários
+- ✅ Interfaces e Type Aliases
+- ✅ Generics
+- ✅ Consumo de APIs
+- ✅ Fetch API
+- ✅ React Router
+- ✅ Componentes Reutilizáveis
+- ✅ Organização de Projetos
+- ✅ Boas práticas com React e TypeScript
+
+---
+
+# 🛠 Tecnologias
+
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white">
+</p>
+
+---
+
+# 🎯 Objetivo
+
+Este repositório tem como objetivo registrar minha evolução nos estudos de React com TypeScript por meio da resolução dos exercícios propostos durante o curso da Origamid, consolidando conceitos de desenvolvimento Front-end com tipagem estática, componentes reutilizáveis e aplicações escaláveis.
+
+---
+
+# 🔗 Links
+
+- 📚 Projeto principal: https://github.com/gustavogularte/projeto-fintech
+- 💼 LinkedIn: https://www.linkedin.com/in/gustavo-gularte-arend-58742a286/
+- 🌐 Meu perfil no Frontend Mentor: https://www.frontendmentor.io/profile/gustavogularte
